@@ -8,7 +8,7 @@ gem 'rails', '3.0.20'
 gem 'sqlite3'
 
 group :development, :test do
-  gem "rspec-rails", "2.0.0"
+  gem "rspec-rails", ">= 2.6.0"
   gem "cucumber-rails", :require => false
   gem "webrat", "0.7.2"
   gem "pry"
